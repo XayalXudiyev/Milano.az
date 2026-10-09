@@ -57,7 +57,7 @@ function MegaMenu({ onClose }: { onClose: () => void }) {
       className="absolute top-full left-1/2 mt-3 w-[min(1100px,calc(100vw-5rem))] -translate-x-1/2 rounded-[28px] border border-white/70 bg-ivory/95 p-6 shadow-[0_40px_80px_-30px_rgba(21,18,20,0.35)] backdrop-blur-xl"
     >
       <div className="grid grid-cols-[1fr_260px] gap-6">
-        <div className="grid grid-cols-5 gap-3">
+        <div className="grid grid-cols-6 gap-3">
           {CATEGORIES.map((c, i) => (
             <motion.div key={c.slug} initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.05 * i + 0.1, duration: 0.6, ease: [0.16, 1, 0.3, 1] }}>
               <Link href={href(`/mehsullar/?kateqoriya=${c.slug}`)} onClick={onClose} className="group block">

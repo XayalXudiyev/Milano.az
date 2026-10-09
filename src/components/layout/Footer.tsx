@@ -9,7 +9,7 @@ import Marquee from "@/components/ui/Marquee";
 import { ManagerTrigger } from "@/components/manager/ManagerCard";
 import { useNav } from "./useNav";
 import { LangInline } from "./LangSwitcher";
-import NouvelleLogo from "@/components/ui/NouvelleLogo";
+import MilanoLogo from "@/components/ui/MilanoLogo";
 
 export default function Footer() {
   const { t, href, categories, brands } = useLang();
@@ -19,7 +19,7 @@ export default function Footer() {
     <footer className="relative overflow-hidden bg-ink text-ivory">
       <div className="border-b border-white/10 py-6">
         <Marquee duration={30}>
-          {["Nouvelle", "Redist", "RedOne", "Razorline", "Naspura", "Artéko"].map((b) => (
+          {["Nouvelle", "Redist", "RedOne", "Razorline", "Naspura", "Artego", "Fresh Feel"].map((b) => (
             <span key={b} className="flex items-center gap-10 px-5 font-display text-5xl font-medium text-white/90 italic sm:text-7xl">
               {b}
               <Sparkle className="size-5 text-rose" />
@@ -30,7 +30,7 @@ export default function Footer() {
 
       <div className="container-x grid gap-12 py-16 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1.3fr]">
         <div>
-          <NouvelleLogo className="mb-6 h-14 text-ivory" />
+          <MilanoLogo className="mb-6 h-9 text-ivory" />
           <p className="font-display text-4xl leading-tight font-medium">
             {f.slogan} <span className="text-gold-2 italic">{f.sloganAccent}</span>
           </p>
@@ -124,7 +124,7 @@ export default function Footer() {
       </div>
 
       <div aria-hidden className="pointer-events-none flex justify-center px-4 pb-6 select-none">
-        <NouvelleLogo title="" className="w-full max-w-[1200px] text-white/[0.05]" />
+        <MilanoLogo title="" className="w-full max-w-[1200px] text-white/[0.05]" />
       </div>
     </footer>
   );

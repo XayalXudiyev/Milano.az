@@ -10,7 +10,7 @@ import { WhatsAppIcon, InstagramIcon } from "@/components/ui/Icons";
 import { ManagerTrigger } from "@/components/manager/ManagerCard";
 import { lockScroll } from "./SmoothScroll";
 import { useNav } from "./useNav";
-import NouvelleLogo from "@/components/ui/NouvelleLogo";
+import MilanoLogo from "@/components/ui/MilanoLogo";
 import { LangInline } from "./LangSwitcher";
 
 export default function MobileMenu({ open, onClose }: { open: boolean; onClose: () => void }) {
@@ -38,7 +38,7 @@ export default function MobileMenu({ open, onClose }: { open: boolean; onClose: 
           data-lenis-prevent
         >
           <div className="flex h-20 shrink-0 items-center justify-between px-5">
-            <NouvelleLogo className="h-10 text-ivory" />
+            <MilanoLogo className="h-7 text-ivory" />
             <button onClick={onClose} className="grid size-11 place-items-center rounded-full bg-white/10" aria-label={t.common.close}>
               <X className="size-5" />
             </button>

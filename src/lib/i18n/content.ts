@@ -15,6 +15,7 @@ type ProductTr = {
   variantLabel?: string;
   variants?: Record<string, string>;
   specs?: { label: string; value: string }[];
+  pack?: { sections: { title: string; list?: string[]; text?: string }[] }[];
 };
 type Content = {
   products: Record<string, ProductTr>;
@@ -40,6 +41,7 @@ export function localizeProduct(p: Product, lang: Lang): Product {
     variantLabel: tr.variantLabel ?? p.variantLabel,
     specs: tr.specs ?? p.specs,
     variants: p.variants?.map((v) => ({ ...v, label: tr.variants?.[v.id] ?? v.label })),
+    pack: p.pack?.map((it, i) => ({ ...it, sections: tr.pack?.[i]?.sections ?? it.sections })),
   };
 }
 

@@ -4,7 +4,7 @@ import { animate, motion, useInView, useMotionValue, useTransform } from "motion
 import { useEffect, useRef } from "react";
 import { BadgeCheck, Truck, MessagesSquare, Store } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
-import { SKU_COUNT } from "@/lib/data";
+import { BRANDS, SKU_COUNT } from "@/lib/data";
 import { useLang } from "@/lib/i18n/context";
 
 function Counter({ to, suffix = "" }: { to: number; suffix?: string }) {
@@ -20,7 +20,7 @@ function Counter({ to, suffix = "" }: { to: number; suffix?: string }) {
 
 const ICONS = [BadgeCheck, Truck, MessagesSquare, Store];
 const STAT_VALUES = [
-  { to: 6, s: "" },
+  { to: BRANDS.length, s: "" },
   { to: Math.floor(SKU_COUNT / 10) * 10, s: "+" },
   { to: 40, s: "%" },
   { to: 24, s: "/7" },

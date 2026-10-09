@@ -6,6 +6,7 @@ import { LangProvider } from "@/lib/i18n/context";
 import Header from "./Header";
 import Footer from "./Footer";
 import CartDrawer from "./CartDrawer";
+import CartToast from "./CartToast";
 import FloatingContact from "./FloatingContact";
 import SmoothScroll from "./SmoothScroll";
 import Loader from "./Loader";
@@ -35,6 +36,7 @@ export default function RootShell({ lang, children }: { lang: Lang; children: Re
           <main>{children}</main>
           <Footer />
           <CartDrawer />
+          <CartToast />
           <FloatingContact />
           <ManagerCardModal />
         </LangProvider>

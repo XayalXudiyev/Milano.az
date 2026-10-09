@@ -5,11 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "motion/react";
 import { Component, useEffect, useState, type ReactNode } from "react";
-import { ArrowRight, BadgePercent } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import SplitText from "@/components/ui/SplitText";
 import Magnetic from "@/components/ui/Magnetic";
 import { Sparkle } from "@/components/ui/Icons";
-import { PRODUCTS, SKU_COUNT, finalPrice } from "@/lib/data";
+import { BRANDS, PRODUCTS, SKU_COUNT, finalPrice } from "@/lib/data";
 import { formatPrice } from "@/lib/format";
 import { useLang } from "@/lib/i18n/context";
 
@@ -101,11 +101,6 @@ export default function Hero() {
                 {h.cta} <ArrowRight className="size-4" />
               </Link>
             </Magnetic>
-            <Magnetic>
-              <Link href={href("/endirimler/")} className="btn btn-ghost">
-                <BadgePercent className="size-4 text-rose" /> {h.deals}
-              </Link>
-            </Magnetic>
           </div>
 
           <dl
@@ -113,7 +108,7 @@ export default function Hero() {
             className="anim-fadeup mt-10 grid max-w-md grid-cols-3 divide-x divide-line border-t border-line pt-6"
           >
             {[
-              ["6", h.stats[0]],
+              [String(BRANDS.length), h.stats[0]],
               [`${Math.floor(SKU_COUNT / 10) * 10}+`, h.stats[1]],
               [h.oneDay, h.stats[2]],
             ].map(([n, l]) => (

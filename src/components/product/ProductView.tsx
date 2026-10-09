@@ -7,16 +7,17 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Thumbs, A11y, Keyboard } from "swiper/modules";
 import type { Swiper as SwiperT } from "swiper";
 import { useRef, useState } from "react";
-import { Minus, Plus, ShoppingBag, Truck, ShieldCheck, RotateCcw, Check, Info } from "lucide-react";
+import { Minus, Plus, ShoppingBag, Truck, ShieldCheck, Check, Info } from "lucide-react";
 import "swiper/css";
 import "swiper/css/thumbs";
 import { finalPrice, type Product } from "@/lib/data";
 import { useLang } from "@/lib/i18n/context";
 import { ManagerTrigger } from "@/components/manager/ManagerCard";
-import { cart } from "@/lib/cart";
+import { cart, itemLines } from "@/lib/cart";
 import { formatPrice, cn } from "@/lib/format";
 import { whatsappLink } from "@/lib/site";
 import { WhatsAppIcon } from "@/components/ui/Icons";
+import PackCatalog from "./PackCatalog";
 
 const isCutout = (src: string) => src.startsWith("/img/hq/") || src.startsWith("/img/p/");
 
@@ -53,7 +54,7 @@ function ZoomImage({ src, alt, contain, priority, photo }: { src: string; alt: s
 }
 
 export default function ProductView({ product: raw }: { product: Product }) {
-  const { t, href, product: loc, brand: getB, category: getC } = useLang();
+  const { t, lang, href, product: loc, brand: getB, category: getC } = useLang();
   const tp = t.product;
   const product = loc(raw);
   const brand = getB(product.brand);
@@ -86,7 +87,7 @@ export default function ProductView({ product: raw }: { product: Product }) {
   };
 
   const quickOrder = whatsappLink(
-    `${t.cart.msgSingle}\n${product.name}${product.code ? ` [${product.code}]` : ""}${variant ? ` (${variant.label}${variant.code ? ` · ${variant.code}` : ""})` : ""} × ${qty} — ${formatPrice(Math.round(unit * qty * 100) / 100)}`,
+    [t.cart.msgSingle, "", ...itemLines(raw, variantId, qty, lang), "", `✅ ${t.cart.msgTotal}: ${formatPrice(Math.round(unit * qty * 100) / 100)}`, `🚚 ${t.cart.msgDelivery}`].join("\n"),
   );
 
   const tabs = [
@@ -277,8 +278,8 @@ export default function ProductView({ product: raw }: { product: Product }) {
           </a>
           <ManagerTrigger className="mt-3 w-full justify-start" />
 
-          <ul className="mt-8 grid gap-3 sm:grid-cols-3">
-            {[Truck, ShieldCheck, RotateCcw].map((Icon, i) => ({ Icon, ...tp.perks[i] })).map(({ Icon, t, d }) => (
+          <ul className="mt-8 grid gap-3 sm:grid-cols-2">
+            {[Truck, ShieldCheck].map((Icon, i) => ({ Icon, ...tp.perks[i] })).map(({ Icon, t, d }) => (
               <li key={t} className="flex items-center gap-3 rounded-2xl border border-line p-3.5">
                 <Icon className="size-5 shrink-0 text-rose" />
                 <span className="text-xs leading-tight">
@@ -307,6 +308,8 @@ export default function ProductView({ product: raw }: { product: Product }) {
           </div>
         </div>
       </div>
+
+      {product.pack?.length ? <PackCatalog product={raw} /> : null}
 
       {/* mobil yapışqan səbət paneli */}
       <div className="fixed inset-x-0 bottom-0 z-40 border-t border-line bg-ivory/90 p-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] backdrop-blur-xl lg:hidden">

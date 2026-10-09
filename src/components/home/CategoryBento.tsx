@@ -66,7 +66,7 @@ function TiltCard({ c, className, index }: { c: Category; className?: string; in
 
 export default function CategoryBento() {
   const { t, categories } = useLang();
-  const [a, b, c, d, e] = categories();
+  const [a, b, c, d, e, f] = categories();
   return (
     <section className="container-x py-20 sm:py-28">
       <SectionHeading eyebrow={t.categories.eyebrow} title={t.categories.title} className="mb-12" />
@@ -74,8 +74,9 @@ export default function CategoryBento() {
         <TiltCard c={b} index={0} className="col-span-2 row-span-2" />
         <TiltCard c={a} index={1} />
         <TiltCard c={e} index={2} />
-        <TiltCard c={c} index={3} />
-        <TiltCard c={d} index={4} />
+        <TiltCard c={c} index={3} className="col-span-2" />
+        <TiltCard c={d} index={4} className="col-span-2" />
+        {f && <TiltCard c={f} index={5} className="col-span-2" />}
       </div>
     </section>
   );

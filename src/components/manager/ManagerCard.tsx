@@ -9,7 +9,7 @@ import { useLang } from "@/lib/i18n/context";
 import { WhatsAppIcon, Sparkle } from "@/components/ui/Icons";
 import { lockScroll } from "@/components/layout/SmoothScroll";
 import { cn } from "@/lib/format";
-import NouvelleLogo from "@/components/ui/NouvelleLogo";
+import MilanoLogo from "@/components/ui/MilanoLogo";
 
 /* ───────── kiçik qlobal vəziyyət (kart haradan açıldı) ───────── */
 type Origin = { x: number; y: number; w: number; vw: number; vh: number } | null;
@@ -215,7 +215,7 @@ export function ManagerCardModal() {
                       <Image src={SITE.manager.photo} alt={SITE.manager.name} fill sizes="360px" className="object-cover object-[50%_30%]" priority />
                       <div className="absolute inset-0 bg-gradient-to-b from-ink/30 via-transparent to-ink" />
                       <div className="absolute top-4 left-4 flex items-center gap-2">
-                        <NouvelleLogo className="h-8 text-white drop-shadow" />
+                        <MilanoLogo className="h-5 text-white drop-shadow" />
                       </div>
                       <svg viewBox="0 0 24 24" className="absolute top-4 right-4 size-6 text-white/80" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden>
                         <path d="M8.5 7.5a7 7 0 0 1 0 9M12 5a10.5 10.5 0 0 1 0 14M5 10a3 3 0 0 1 0 4" strokeLinecap="round" />
@@ -249,8 +249,8 @@ export function ManagerCardModal() {
                     </div>
                     <div className="relative flex flex-1 flex-col items-center justify-center gap-4 px-6 text-center">
                       <Sparkle className="size-8 text-gold-2" />
-                      <NouvelleLogo className="h-16 text-white" />
-                      <p className="text-[0.6rem] font-semibold tracking-[0.3em] uppercase">Official · Azerbaijan</p>
+                      <MilanoLogo className="h-10 text-white" />
+                      <p className="text-[0.6rem] font-semibold tracking-[0.3em] uppercase">Milano MMC</p>
                       <p className="text-sm text-white/80">{t.manager.back}</p>
                       <p className="font-display text-lg text-white/90 italic">Nouvelle · Redist · RedOne · Razorline</p>
                     </div>

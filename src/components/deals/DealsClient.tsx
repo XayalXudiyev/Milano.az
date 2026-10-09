@@ -5,16 +5,15 @@ import Link from "next/link";
 import { motion } from "motion/react";
 import { discounted } from "@/lib/data";
 import { useLang } from "@/lib/i18n/context";
-import Countdown from "@/components/ui/Countdown";
 import ProductCard from "@/components/product/ProductCard";
 import SectionHeading from "@/components/ui/SectionHeading";
 
 const OFFER_STYLE = [
   { bg: "#151214", fg: "#f8f3ef", accent: "#d9bd8c", img: "/img/hq/cck006.webp", href: "/brendler/razorline/", span: "lg:col-span-2 lg:row-span-2" },
   { bg: "#c8102e", fg: "#ffffff", accent: "#ffd3d8", img: "/img/hq/wax-red.webp", href: "/brendler/redone/", span: "" },
-  { bg: "#e6dbd2", fg: "#151214", accent: "#c2415e", img: "/img/p/iron.webp", href: "/mehsullar/arteko-sac-utusu/", span: "" },
   { bg: "#f4d9dc", fg: "#151214", accent: "#c2415e", img: "/img/hq/kera-oil.webp", href: "/mehsullar/nouvelle-kera-sublime-set/", span: "" },
-  { bg: "#ece7e0", fg: "#151214", accent: "#b8935a", img: "/img/p/brush-45.webp", href: "/brendler/arteko/", span: "" },
+  { bg: "#d6e4ef", fg: "#151214", accent: "#c8102e", img: "/img/hq/curl-spray.webp", href: "/mehsullar/nouvelle-curl-me-up-set/", span: "" },
+  { bg: "#ece7e0", fg: "#151214", accent: "#b8935a", img: "/img/p/brush-45.webp", href: "/brendler/artego/", span: "" },
 ];
 
 export default function DealsClient() {
@@ -26,10 +25,6 @@ export default function DealsClient() {
   return (
     <>
       <section className="container-x pb-16">
-        <div className="mb-10 flex flex-col items-start justify-between gap-6 rounded-[2rem] bg-ink p-6 text-ivory sm:flex-row sm:items-center sm:p-8">
-          <p className="font-display text-3xl">{d.ends}</p>
-          <Countdown light />
-        </div>
         <div className="grid auto-rows-[200px] gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {d.offers.map((o, i) => {
             const s = OFFER_STYLE[i];
@@ -61,7 +56,7 @@ export default function DealsClient() {
       </section>
 
       {tiers.map((tier) => (
-        <section key={tier} className="container-x py-12">
+        <section key={tier} id={`endirim-${tier}`} className="container-x scroll-mt-24 py-12">
           <SectionHeading title={`*${d.tier(tier)}*`} className="mb-10" />
           <div className="grid grid-cols-2 gap-x-3 gap-y-10 sm:gap-x-5 md:grid-cols-3 xl:grid-cols-4">
             {items

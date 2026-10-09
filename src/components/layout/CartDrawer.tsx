@@ -7,7 +7,7 @@ import { useEffect } from "react";
 import { Minus, Plus, ShoppingBag, Trash2, X, Phone, Truck } from "lucide-react";
 import { cart, orderLink, resolve, totals, useCart } from "@/lib/cart";
 import { formatPrice } from "@/lib/format";
-import { PHONE, SITE } from "@/lib/site";
+import { PHONE } from "@/lib/site";
 import { useLang } from "@/lib/i18n/context";
 import { WhatsAppIcon } from "@/components/ui/Icons";
 import { lockScroll } from "./SmoothScroll";
@@ -18,7 +18,6 @@ export default function CartDrawer() {
   const c = t.cart;
   const items = resolve(lines);
   const tt = totals(items);
-  const progress = Math.min(1, tt.subtotal / SITE.freeShippingFrom);
 
   useEffect(() => {
     if (!open) return;
@@ -57,11 +56,8 @@ export default function CartDrawer() {
               <div className="mx-6 mb-2 rounded-2xl bg-cream p-3.5">
                 <p className="flex items-center gap-2 text-xs font-medium">
                   <Truck className="size-4 text-rose" />
-                  {tt.freeShipping ? c.freeDone : c.freeLeft(formatPrice(Math.round((SITE.freeShippingFrom - tt.subtotal) * 100) / 100))}
+                  {c.freeNote}
                 </p>
-                <div className="mt-2.5 h-1.5 overflow-hidden rounded-full bg-white">
-                  <motion.div className="h-full rounded-full bg-gradient-to-r from-rose to-gold" initial={false} animate={{ width: `${progress * 100}%` }} transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }} />
-                </div>
               </div>
             )}
 

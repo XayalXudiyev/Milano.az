@@ -4,12 +4,12 @@ import Marquee from "@/components/ui/Marquee";
 import { Sparkle } from "@/components/ui/Icons";
 import { useLang } from "@/lib/i18n/context";
 
-const B = ["Nouvelle", "Redist", "RedOne", "Razorline", "Naspura", "Artéko"];
+const B = ["Nouvelle", "Redist", "RedOne", "Razorline", "Naspura", "Artego", "Fresh Feel"];
 
 export default function MarqueeBand() {
   const A = useLang().t.marquee;
   return (
-    <section aria-label="Nouvelle Azerbaijan" className="relative z-10 -my-4 overflow-hidden py-10">
+    <section aria-label="Milano MMC" className="relative z-10 -my-4 overflow-hidden py-10">
       <div className="-rotate-2 bg-rose py-4 text-white shadow-xl sm:py-5">
         <Marquee duration={32}>
           {A.map((t) => (

@@ -264,6 +264,16 @@ html.lenis body {
   opacity: 1 !important;
 }
 
+/* Səbət bildirişinin qalan vaxt zolağı */
+@keyframes cart-toast {
+  from {
+    transform: scaleX(1);
+  }
+  to {
+    transform: scaleX(0);
+  }
+}
+
 @keyframes float {
   0%,
   100% {

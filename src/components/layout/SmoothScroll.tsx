@@ -40,10 +40,70 @@ export default function SmoothScroll() {
     };
   }, []);
 
+  // Hər səhifənin son scroll mövqeyini yadda saxla; geri/irəli düyməsində bərpa olunur
+  useEffect(() => {
+    window.history.scrollRestoration = "manual";
+    let raf = 0;
+    const save = () => {
+      if (popY !== null || restoring) return; // bərpa gedərkən yazma
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(() => {
+        try {
+          sessionStorage.setItem(scrollKey(), String(Math.round(window.scrollY)));
+        } catch {}
+      });
+    };
+    const onPop = () => {
+      // URL artıq qayıdılan səhifəyə dəyişib — mövqeyi dərhal oxu (sonrakı scroll hadisələri onu korlamasın)
+      try {
+        popY = Number(sessionStorage.getItem(scrollKey())) || 0;
+      } catch {
+        popY = 0;
+      }
+    };
+    window.addEventListener("scroll", save, { passive: true });
+    window.addEventListener("popstate", onPop);
+    return () => {
+      cancelAnimationFrame(raf);
+      window.removeEventListener("scroll", save);
+      window.removeEventListener("popstate", onPop);
+    };
+  }, []);
+
   useEffect(() => {
     if (window.location.hash) return;
-    lenis?.scrollTo(0, { immediate: true, force: true });
+    if (popY === null) {
+      lenis?.scrollTo(0, { immediate: true, force: true });
+      if (!lenis) window.scrollTo(0, 0);
+      return;
+    }
+    const y = popY;
+    popY = null;
+    restoring = true;
+    // Məzmun tam render olunana qədər bir neçə kadr gözlə, sonra həmin yerə qayıt
+    let tries = 0;
+    let raf = 0;
+    const restore = () => {
+      const max = document.documentElement.scrollHeight - window.innerHeight;
+      if (max >= y || tries++ > 60) {
+        if (lenis) lenis.scrollTo(y, { immediate: true, force: true });
+        else window.scrollTo(0, y);
+        restoring = false;
+        return;
+      }
+      raf = requestAnimationFrame(restore);
+    };
+    raf = requestAnimationFrame(restore);
+    return () => {
+      cancelAnimationFrame(raf);
+      restoring = false;
+    };
   }, [pathname]);
 
   return null;
 }
+
+/** Geri/irəli naviqasiyasında bərpa olunacaq mövqe (null — adi keçid). */
+let popY: number | null = null;
+let restoring = false;
+const scrollKey = () => `nv-scroll:${window.location.pathname}${window.location.search}`;

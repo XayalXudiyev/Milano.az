@@ -86,20 +86,123 @@
    ]
   },
   "nouvelle-kera-sublime-set": {
-   "name": "Kera Sublime Care Set",
+   "name": "Kera Sublime Care Bundle",
    "short": "Shampoo 300 ml + Mask 300 ml + Oil 100 ml",
-   "description": "The three core products of the Kera Sublime line in one set: keratin shampoo, care mask and perfection oil. It prolongs the results of a keratin treatment and restores hair from within.",
+   "description": "The three core products of the Kera Sublime line in one bundle: Straightening Care Shampoo, Straightening Care Mask and Perfection Care Oil. With keratin, grape seed oil and Amino Sublime Complex, it cleanses, nourishes and gives hair a silky shine. Helps the smooth look last longer after a keratin treatment. 10% off when bought as a bundle.",
    "features": [
-    "Repairs internal gaps in the hair fiber",
-    "Aligns the fibers",
-    "Strengthens hair",
-    "15% savings when bought as a set"
+    "Gently cleanses and moisturizes hair",
+    "Softens, smooths and makes hair easier to comb",
+    "Helps reduce the look of frizz",
+    "10% off as a bundle"
    ],
    "volume": "Shampoo + Mask + Oil",
    "specs": [
     {
      "label": "Contents",
      "value": "Shampoo 300 ml, Mask 300 ml, Oil 100 ml"
+    }
+   ],
+   "usage": "1. Apply the shampoo to wet hair, lather and rinse thoroughly. 2. Apply the mask to the lengths and ends, comb through evenly and rinse. 3. Once hair is dried and styled, apply a few drops of oil to the lengths and ends — leave in.",
+   "pack": [
+    {
+     "sections": [
+      {
+       "title": "What is it for?",
+       "list": [
+        "Gently cleanses hair",
+        "Moisturizes and softens",
+        "Helps hair look smoother and silkier",
+        "Helps the smooth look achieved after a keratin treatment last longer",
+        "Boosts shine",
+        "Helps preserve the cosmetic look of color in dyed hair"
+       ]
+      },
+      {
+       "title": "Key ingredients",
+       "list": [
+        "Hydrolyzed keratin — helps condition hair and give it a smoother look",
+        "Grape seed oil — supports softness and shine",
+        "Amino Complex — a blend of amino acids that helps strengthen hair and keep it looking cared for. The formula also contains panthenol and various amino acids"
+       ]
+      },
+      {
+       "title": "Best suited for",
+       "list": [
+        "Frizzy and static-prone hair",
+        "Wavy and curly hair",
+        "Dry and coarse hair",
+        "Aftercare following keratin/straightening treatments",
+        "Anyone who wants smoother, softer and shinier-looking hair"
+       ]
+      },
+      {
+       "title": "How to use",
+       "text": "Apply to wet hair, lather over hair and scalp, then rinse thoroughly. Nouvelle also recommends using it together with the Straightening Care Mask."
+      }
+     ]
+    },
+    {
+     "sections": [
+      {
+       "title": "What does it do?",
+       "list": [
+        "Softens and smooths hair",
+        "Makes combing easier",
+        "Cares for dry and damaged lengths",
+        "Boosts shine and silkiness",
+        "Helps reduce the look of frizz",
+        "Thanks to keratin, helps the hair fiber look more cared for and stronger"
+       ]
+      },
+      {
+       "title": "Key active ingredients",
+       "list": [
+        "Hydrolyzed keratin — provides conditioning and strengthening care on the hair surface",
+        "Grape seed oil — helps with moisture, softness and shine",
+        "Amino Sublime Complex — complements the line's caring and smoothing effect",
+        "The formula also contains panthenol, glycerin and a vitamin E derivative"
+       ]
+      },
+      {
+       "title": "Which hair is it for?",
+       "list": [
+        "Dry and coarse hair",
+        "Frizzy hair",
+        "Hair tired from chemical treatments",
+        "Hair that should be smooth, soft and easier to comb"
+       ]
+      },
+      {
+       "title": "How to use",
+       "text": "After washing with Kera Sublime Straightening Care Shampoo, apply the mask to the lengths and ends, comb through evenly, leave for 3–5 minutes and rinse thoroughly."
+      }
+     ]
+    },
+    {
+     "sections": [
+      {
+       "title": "Main effects",
+       "list": [
+        "Gives hair silky softness and shine",
+        "Helps reduce frizz",
+        "Makes hair look smoother and well-groomed",
+        "Brings a livelier look to dry, dull hair",
+        "Finishes the look after blow-drying and styling"
+       ]
+      },
+      {
+       "title": "Ingredients",
+       "list": [
+        "Grape seed oil — for nourishing and moisturizing care",
+        "Hydrolyzed keratin — supports softness and a cared-for look",
+        "Amino Sublime Complex — contributes to shine and silkiness"
+       ]
+      },
+      {
+       "title": "How to use",
+       "text": "Once hair is dried and styled, take a few drops into your hands and apply mainly to the lengths and ends. Leave in."
+      }
+     ]
     }
    ]
   },
@@ -161,14 +264,14 @@
    ]
   },
   "nouvelle-curl-me-up-set": {
-   "name": "Curl Me Up Total Curl Care Set",
-   "short": "A 3-product line for curly hair",
-   "description": "The 3-product Curl Me Up line is specially formulated for the treatment and daily care of curly hair: it moisturizes, defines curls and protects hair from damaging influences.",
+   "name": "Curl Me Up Care Bundle",
+   "short": "Shampoo 250 ml + Mask 300 ml + Spray 150 ml",
+   "description": "Three products of the Curl Me Up line for curly and wavy hair in one bundle: Curl Evolve Shampoo, Curl Evolve Mask and Curl Emphasizer Spray. Cleanses curls, hydrates deeply, preserves their natural elasticity and protects against humidity for lively, defined curls. 10% off when bought as a bundle.",
    "features": [
-    "Moisturizes",
-    "Defines curls",
-    "Natural formula",
-    "Protects and makes combing easy"
+    "Deeply hydrates and nourishes curls",
+    "Adds elasticity and softness",
+    "Reduces frizz and the effect of humidity",
+    "10% off as a bundle"
    ],
    "volume": "Shampoo + Mask + Spray",
    "specs": [
@@ -176,19 +279,87 @@
      "label": "Contents",
      "value": "Shampoo 250 ml, Mask 300 ml, Spray 150 ml"
     }
+   ],
+   "usage": "1. Apply the shampoo to wet hair, massage gently and rinse. 2. Distribute the mask through the lengths, leave for 5 minutes and rinse. 3. Spray onto damp or dry hair from 20–30 cm and shape curls with your fingers.",
+   "pack": [
+    {
+     "sections": [
+      {
+       "title": "What does it do?",
+       "text": "A cleansing and hydrating shampoo for curly and wavy hair. It deeply cleanses, hydrates and nourishes — making curls livelier, lighter and more defined."
+      },
+      {
+       "title": "Benefits",
+       "list": [
+        "Gently cleanses hair",
+        "Boosts elasticity",
+        "Reduces static and hydrates hair",
+        "Natural shine and softness",
+        "Sulfate-free formula",
+        "Suitable for daily use"
+       ]
+      },
+      {
+       "title": "How to use",
+       "text": "Apply to wet hair, massage gently and rinse. Follow with the Curl Me Up mask."
+      }
+     ]
+    },
+    {
+     "sections": [
+      {
+       "title": "What does it do?",
+       "text": "A nourishing and hydrating hair mask for curly and wavy hair."
+      },
+      {
+       "title": "Benefits",
+       "list": [
+        "Deeply hydrates hair",
+        "Softens and makes hair silky",
+        "Improves curl definition",
+        "Vegan formula"
+       ]
+      },
+      {
+       "title": "How to use",
+       "text": "After shampooing, distribute through the lengths, leave for 5 minutes and rinse."
+      }
+     ]
+    },
+    {
+     "sections": [
+      {
+       "title": "What does it do?",
+       "text": "Revitalizes curls, protects against humidity and adds softness and elasticity. A hydrating, protective spray for curly and wavy hair."
+      },
+      {
+       "title": "Benefits",
+       "list": [
+        "Hydrates and revitalizes",
+        "Makes curls more elastic and reduces static",
+        "Anti-humidity protection and shine",
+        "Emphasizes curls",
+        "Lightweight formula, never greasy"
+       ]
+      },
+      {
+       "title": "How to use",
+       "text": "Spray onto damp or dry hair from 20–30 cm and shape curls with your fingers. Leave in."
+      }
+     ]
+    }
    ]
   },
   "nouvelle-color-effective-blonde": {
    "name": "Color Effective Blonde Bleaching Powder",
    "short": "Root-ready blue bleaching powder — up to 9 levels",
-   "description": "Lightening power with care. This care-enriched professional bleaching powder lightens hair up to 9 levels without damaging it. Its special formula is suitable for root application, and blue toning technology neutralizes yellow tones.",
+   "description": "Lightening power with care. This care-enriched professional bleaching powder lightens hair up to 9 levels without damaging it. Its special formula is suitable for root application.",
    "features": [
     "Lightens up to 9 levels without damaging hair",
     "Suitable for root application",
-    "Prevents hair from drying out",
     "Blue toning technology"
    ],
-   "usage": "Mixing ratio (per package): 1 part bleaching powder : 8 parts developer. Prepare the mixture and apply immediately.",
+   "usage": "Mixing ratio 1:2 — 1 part bleaching powder : 2 parts developer. Prepare the mixture and apply immediately. For professional use.",
    "volume": "500 g",
    "specs": [
     {
@@ -200,8 +371,12 @@
      "value": "Up to 9 levels"
     },
     {
+     "label": "Mixing ratio",
+     "value": "1:2 (powder : developer)"
+    },
+    {
      "label": "Color",
-     "value": "Blue (anti-yellow)"
+     "value": "Blue"
     }
    ]
   },
@@ -328,14 +503,18 @@
     "95% — blonde hair looks brighter",
     "91% — reduction in yellowish tones",
     "87% — hair looks smoother and shinier",
-    "Professional 1 L size"
+    "Professional 500 ml size"
    ],
    "usage": "Apply to wet hair, leave for 2–5 minutes and rinse. Use 1–2 times a week.",
-   "volume": "1000 ml",
+   "volume": "500 ml",
    "specs": [
     {
      "label": "Volume",
-     "value": "1000 ml"
+     "value": "500 ml"
+    },
+    {
+     "label": "Code",
+     "value": "02292"
     }
    ]
   },
@@ -932,7 +1111,7 @@
   },
   "redone-barber-cologne-400": {
    "name": "RedOne Barber Cologne",
-   "short": "Large-size barber cologne — 6 scents",
+   "short": "Large-size barber cologne — 7 scents",
    "description": "A large-size cologne for barbershops. Freshness and a long-lasting pleasant scent after shaving.",
    "features": [
     "Large 400 ml size",
@@ -947,7 +1126,8 @@
     "citrus": "Citrus",
     "lemon": "Lemon",
     "caribbean": "Caribbean",
-    "tabacco": "Tabacco"
+    "tabacco": "Tabacco",
+    "thunderbolt": "Thunderbolt"
    },
    "specs": [
     {
@@ -1306,79 +1486,71 @@
    ],
    "note": "Discount valid for cash sales only"
   },
-  "arteko-sac-utusu": {
-   "name": "Artéko Professional Hair Straightener",
-   "short": "Straightening iron with ceramic plates",
-   "description": "Straightens hair evenly without burning it, thanks to ceramic-tourmaline plates. Ideal for keratin treatments, with fast heat-up and adjustable temperature.",
+  "artego-sac-utusu": {
+   "name": "Artego Professional Hair Straightener",
+   "short": "Tourmaline Power hair straightener, 130–230°C",
+   "description": "Artego hair professional straightener — heats up fast and uses hair-protecting technology for shiny, straight hair. Tourmaline Power plates and adjustable temperature from 130 to 230°C.",
    "features": [
-    "Ceramic-tourmaline plates",
-    "Adjustable temperature (up to 230°C)",
     "Fast heat-up",
-    "Swivel cord"
+    "Hair-protecting technology",
+    "Shiny, straight hair",
+    "Adjustable temperature: 130–230°C"
    ],
-   "note": "Discount valid for cash sales only",
    "specs": [
     {
      "label": "Temperature",
      "value": "130–230°C"
     },
     {
-     "label": "Plate",
-     "value": "Ceramic-tourmaline"
+     "label": "Plates",
+     "value": "Tourmaline Power"
     }
-   ]
+   ],
+   "note": "Discount valid for cash sales only"
   },
-  "arteko-brush-oval": {
-   "name": "Artéko Oval Massage Brush",
-   "short": "Massage brush, eco-friendly body",
-   "description": "A massage brush with an eco-friendly body. It combs hair gently and gives the scalp a massaging effect.",
+  "artego-brush-oval": {
+   "name": "Artego Oval Brush",
+   "short": "Oval brush",
+   "description": "Artego oval brush — for everyday combing and blow-dry styling.",
    "features": [
-    "Gentle combing",
-    "Scalp massage",
-    "Eco-friendly handle"
+    "For everyday combing",
+    "Comfortable for blow-dry styling",
+    "Free stand with 8 brushes"
    ],
    "note": "Buy 8 combs and get a comb stand free",
    "specs": [
     {
-     "label": "Code",
-     "value": "Oval"
-    },
-    {
-     "label": "Size",
-     "value": "Massage brush"
+     "label": "Type",
+     "value": "Oval brush"
     }
    ]
   },
-  "arteko-brush-square": {
-   "name": "Artéko Square (Paddle) Brush",
-   "short": "Paddle brush, eco-friendly body",
-   "description": "A paddle brush with an eco-friendly body. It combs hair gently and gives the scalp a massaging effect.",
+  "artego-brush-square": {
+   "name": "Artego Square Brush",
+   "short": "Square brush",
+   "description": "Artego square brush — for everyday combing and blow-dry styling.",
    "features": [
-    "Gentle combing",
-    "Scalp massage",
-    "Eco-friendly handle"
+    "For everyday combing",
+    "Comfortable for blow-dry styling",
+    "Free stand with 8 brushes"
    ],
    "note": "Buy 8 combs and get a comb stand free",
    "specs": [
     {
-     "label": "Code",
-     "value": "Square"
-    },
-    {
-     "label": "Size",
-     "value": "Paddle brush"
+     "label": "Type",
+     "value": "Square brush"
     }
    ]
   },
-  "arteko-brush-25": {
-   "name": "Artéko Thermal Brush 0481JC — 25 mm",
-   "short": "Ceramic thermal brush, 25 mm",
-   "description": "A ceramic-body thermal brush (25 mm). Distributes heat evenly during blow-drying and styling, adding volume and shine to hair.",
+  "artego-brush-25": {
+   "name": "Artego Thermal Brush 0481JC — 25 mm",
+   "short": "Round thermal brush, 25 mm",
+   "description": "Artego round thermal brush (0481JC, 25 mm) — for adding volume and shape during blow-dry styling.",
    "features": [
-    "Ceramic-ion body",
-    "Distributes heat evenly",
-    "Volume and shine",
-    "Eco-friendly handle"
+    "For blow-dry styling",
+    "Volume and shape",
+    "Size: 25 mm",
+    "Free stand with 8 brushes"
    ],
    "note": "Buy 8 combs and get a comb stand free",
    "specs": [
@@ -1392,15 +1564,15 @@
     }
    ]
   },
-  "arteko-brush-35": {
-   "name": "Artéko Thermal Brush 0482JC — 35 mm",
-   "short": "Ceramic thermal brush, 35 mm",
-   "description": "A ceramic-body thermal brush (35 mm). Distributes heat evenly during blow-drying and styling, adding volume and shine to hair.",
+  "artego-brush-35": {
+   "name": "Artego Thermal Brush 0482JC — 35 mm",
+   "short": "Round thermal brush, 35 mm",
+   "description": "Artego round thermal brush (0482JC, 35 mm) — for adding volume and shape during blow-dry styling.",
    "features": [
-    "Ceramic-ion body",
-    "Distributes heat evenly",
-    "Volume and shine",
-    "Eco-friendly handle"
+    "For blow-dry styling",
+    "Volume and shape",
+    "Size: 35 mm",
+    "Free stand with 8 brushes"
    ],
    "note": "Buy 8 combs and get a comb stand free",
    "specs": [
@@ -1414,15 +1586,15 @@
     }
    ]
   },
-  "arteko-brush-45": {
-   "name": "Artéko Thermal Brush 0483JC — 45 mm",
-   "short": "Ceramic thermal brush, 45 mm",
-   "description": "A ceramic-body thermal brush (45 mm). Distributes heat evenly during blow-drying and styling, adding volume and shine to hair.",
+  "artego-brush-45": {
+   "name": "Artego Thermal Brush 0483JC — 45 mm",
+   "short": "Round thermal brush, 45 mm",
+   "description": "Artego round thermal brush (0483JC, 45 mm) — for adding volume and shape during blow-dry styling.",
    "features": [
-    "Ceramic-ion body",
-    "Distributes heat evenly",
-    "Volume and shine",
-    "Eco-friendly handle"
+    "For blow-dry styling",
+    "Volume and shape",
+    "Size: 45 mm",
+    "Free stand with 8 brushes"
    ],
    "note": "Buy 8 combs and get a comb stand free",
    "specs": [
@@ -1436,15 +1608,15 @@
     }
    ]
   },
-  "arteko-brush-55": {
-   "name": "Artéko Thermal Brush 0484JC — 55 mm",
-   "short": "Ceramic thermal brush, 55 mm",
-   "description": "A ceramic-body thermal brush (55 mm). Distributes heat evenly during blow-drying and styling, adding volume and shine to hair.",
+  "artego-brush-55": {
+   "name": "Artego Thermal Brush 0484JC — 55 mm",
+   "short": "Round thermal brush, 55 mm",
+   "description": "Artego round thermal brush (0484JC, 55 mm) — for adding volume and shape during blow-dry styling.",
    "features": [
-    "Ceramic-ion body",
-    "Distributes heat evenly",
-    "Volume and shine",
-    "Eco-friendly handle"
+    "For blow-dry styling",
+    "Volume and shape",
+    "Size: 55 mm",
+    "Free stand with 8 brushes"
    ],
    "note": "Buy 8 combs and get a comb stand free",
    "specs": [
@@ -1457,6 +1629,780 @@
      "value": "55 mm"
     }
    ]
+  },
+  "redist-full-force-hair-spray-750": {
+   "name": "Redist Full Force Hair Spray 750 ml",
+   "short": "Strong-hold hair spray — large size",
+   "description": "A strong, long-lasting hold hair spray from the Full Force range. A salon-friendly 750 ml size that keeps shape and volume all day.",
+   "features": [
+    "Strong, long-lasting hold",
+    "Keeps shape and volume all day",
+    "Salon-friendly 750 ml"
+   ],
+   "usage": "Hold 25–30 cm from the hair and spray evenly.",
+   "volume": "750 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "750 ml"
+    },
+    {
+     "label": "Code",
+     "value": "01305"
+    }
+   ]
+  },
+  "redist-full-force-hair-spray-250": {
+   "name": "Redist Full Force Hair Spray 250 ml",
+   "short": "Strong-hold hair spray — compact size",
+   "description": "The handy 250 ml version of Full Force hair spray. Strong hold without stickiness.",
+   "features": [
+    "Strong hold",
+    "Not sticky",
+    "Compact 250 ml"
+   ],
+   "usage": "Hold 25–30 cm from the hair and spray evenly.",
+   "volume": "250 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "250 ml"
+    },
+    {
+     "label": "Code",
+     "value": "02565"
+    }
+   ]
+  },
+  "redist-arginine-hair-spray": {
+   "name": "Redist Arginine Hair Spray",
+   "short": "Hair spray with arginine",
+   "description": "A hair spray from the Arginine range — holds the style while caring for hair and adding shine.",
+   "features": [
+    "Reliable hold",
+    "Arginine care",
+    "Glossy finish"
+   ],
+   "usage": "Hold 25–30 cm from the hair and spray evenly.",
+   "volume": "250 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "250 ml"
+    },
+    {
+     "label": "Code",
+     "value": "02599"
+    }
+   ]
+  },
+  "redist-biotin-hair-spray": {
+   "name": "Redist Biotin Hair Spray",
+   "short": "Hair spray with biotin",
+   "description": "A hair spray from the Biotin range — keeps volume in fine hair and holds the shape.",
+   "features": [
+    "Keeps volume",
+    "Biotin care",
+    "Long-lasting shape"
+   ],
+   "usage": "Hold 25–30 cm from the hair and spray evenly.",
+   "volume": "250 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "250 ml"
+    },
+    {
+     "label": "Code",
+     "value": "02596"
+    }
+   ]
+  },
+  "redist-no-gas-hair-spray": {
+   "name": "Redist No Gas Hair Spray",
+   "short": "Gas-free hair spray",
+   "description": "A gas-free (non-aerosol) hair spray — precise application with a light, flexible hold. Doesn't weigh hair down.",
+   "features": [
+    "Gas-free formula",
+    "Flexible hold",
+    "Doesn't weigh hair down"
+   ],
+   "usage": "Spray onto dry hair where needed and style.",
+   "volume": "400 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "400 ml"
+    },
+    {
+     "label": "Code",
+     "value": "00605"
+    }
+   ]
+  },
+  "redist-arginine-styling-mousse": {
+   "name": "Redist Arginine Hair Styling Mousse",
+   "short": "Styling mousse with arginine",
+   "description": "A mousse that adds volume and shape. Arginine cares for hair while the style lasts.",
+   "features": [
+    "Volume and shape",
+    "Arginine care",
+    "Long-lasting style"
+   ],
+   "usage": "Dispense a small amount, work through damp hair and blow-dry.",
+   "volume": "200 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "200 ml"
+    },
+    {
+     "label": "Code",
+     "value": "02599"
+    }
+   ]
+  },
+  "redist-biotin-styling-mousse": {
+   "name": "Redist Biotin Hair Styling Mousse",
+   "short": "Styling mousse with biotin",
+   "description": "A volumizing mousse for fine hair, enriched with biotin. Doesn't weigh hair down.",
+   "features": [
+    "Adds volume",
+    "Biotin care",
+    "Doesn't weigh hair down"
+   ],
+   "usage": "Dispense a small amount, work through damp hair and blow-dry.",
+   "volume": "200 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "200 ml"
+    },
+    {
+     "label": "Code",
+     "value": "02598"
+    }
+   ]
+  },
+  "redist-full-force-mousse": {
+   "name": "Redist Full Force Hair Mousse",
+   "short": "Strong-hold mousse",
+   "description": "A strong-hold hair mousse from the Full Force range — adds volume and holds the shape all day.",
+   "features": [
+    "Strong hold",
+    "Adds volume",
+    "Holds all day"
+   ],
+   "usage": "Dispense a small amount, work through damp hair and blow-dry.",
+   "volume": "300 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "300 ml"
+    },
+    {
+     "label": "Code",
+     "value": "00600"
+    }
+   ]
+  },
+  "redist-sulfate-free-shampoo": {
+   "name": "Redist Sulfate Free Hair Care Shampoo",
+   "short": "Sulfate-free shampoo",
+   "description": "A professional shampoo that gently cleanses with a sulfate-free formula. Suitable for colored and keratin-treated hair.",
+   "features": [
+    "Sulfate-free formula",
+    "Gentle cleansing",
+    "For colored and keratin-treated hair"
+   ],
+   "usage": "Apply to wet hair, lather and rinse thoroughly.",
+   "volume": "1000 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "1000 ml"
+    },
+    {
+     "label": "Code",
+     "value": "00663"
+    }
+   ]
+  },
+  "redist-keratin-shampoo": {
+   "name": "Redist Keratin Complex Shampoo",
+   "short": "Keratin shampoo",
+   "description": "A keratin complex shampoo — cleanses, strengthens and smooths hair.",
+   "features": [
+    "Keratin complex",
+    "Strengthens hair",
+    "Smooth, shiny look"
+   ],
+   "usage": "Apply to wet hair, lather and rinse thoroughly.",
+   "volume": "1000 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "1000 ml"
+    },
+    {
+     "label": "Code",
+     "value": "01742"
+    }
+   ]
+  },
+  "redist-argan-shampoo": {
+   "name": "Redist Argan Oil Shampoo",
+   "short": "Argan oil shampoo",
+   "description": "A shampoo enriched with argan oil — nourishes dry hair and adds softness and shine.",
+   "features": [
+    "Argan oil",
+    "Nourishes dry hair",
+    "Softness and shine"
+   ],
+   "usage": "Apply to wet hair, lather and rinse thoroughly.",
+   "volume": "1000 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "1000 ml"
+    },
+    {
+     "label": "Code",
+     "value": "01741"
+    }
+   ]
+  },
+  "redist-garlic-shampoo": {
+   "name": "Redist Garlic Hair Care Shampoo",
+   "short": "Garlic shampoo",
+   "description": "A garlic-extract shampoo against hair loss — strengthens the roots. Odorless formula.",
+   "features": [
+    "Garlic extract",
+    "Strengthens the roots",
+    "Odorless formula"
+   ],
+   "usage": "Apply to wet hair, lather and rinse thoroughly.",
+   "volume": "1000 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "1000 ml"
+    },
+    {
+     "label": "Code",
+     "value": "02295"
+    }
+   ]
+  },
+  "redist-arginine-color-shampoo": {
+   "name": "Redist Arginine Color Protector Shampoo",
+   "short": "Color-protecting arginine shampoo",
+   "description": "An arginine shampoo for colored hair — helps prevent fading and adds shine.",
+   "features": [
+    "Protects color",
+    "Arginine care",
+    "Adds shine"
+   ],
+   "usage": "Apply to wet hair, lather and rinse thoroughly.",
+   "volume": "500 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "500 ml"
+    },
+    {
+     "label": "Code",
+     "value": "02615"
+    }
+   ]
+  },
+  "redist-biotin-volumizing-shampoo": {
+   "name": "Redist Biotin Volumizing Shampoo",
+   "short": "Volumizing biotin shampoo",
+   "description": "A biotin shampoo for fine, flat hair. Sulfate- and salt-free; adds volume and vitality.",
+   "features": [
+    "Adds volume",
+    "Biotin care",
+    "Sulfate- and salt-free"
+   ],
+   "usage": "Apply to wet hair, lather and rinse thoroughly.",
+   "volume": "500 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "500 ml"
+    },
+    {
+     "label": "Code",
+     "value": "02616"
+    }
+   ]
+  },
+  "redist-hair-shampoo-4000": {
+   "name": "Redist Hair Shampoo 4000 ml",
+   "short": "Shampoo for all hair types — 4 L",
+   "description": "A professional 4-litre shampoo for salons. Cleanses all hair types; suitable for daily use.",
+   "features": [
+    "For all hair types",
+    "4 L salon size",
+    "Daily use"
+   ],
+   "usage": "Apply to wet hair, lather and rinse thoroughly.",
+   "volume": "4000 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "4000 ml"
+    },
+    {
+     "label": "Code",
+     "value": "01763"
+    }
+   ]
+  },
+  "redist-hair-cream-4000": {
+   "name": "Redist Hair Cream 4000 ml",
+   "short": "Hair cream (conditioner) — 4 L",
+   "description": "A 4-litre hair cream for salons. Softens hair after shampooing and makes combing easier.",
+   "features": [
+    "Softens hair",
+    "Easy combing",
+    "4 L salon size"
+   ],
+   "usage": "After shampooing, apply to damp hair, leave 1–2 minutes and rinse.",
+   "volume": "4000 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "4000 ml"
+    },
+    {
+     "label": "Code",
+     "value": "01764"
+    }
+   ]
+  },
+  "redist-keratin-mask": {
+   "name": "Redist Keratin Complex Hair Mask",
+   "short": "Keratin hair mask",
+   "description": "An intensive keratin complex mask — repairs, strengthens and smooths damaged hair.",
+   "features": [
+    "Keratin complex",
+    "Repair and strength",
+    "Smooth look"
+   ],
+   "usage": "After shampooing, apply to damp hair, leave 3–5 minutes and rinse.",
+   "volume": "500 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "500 ml"
+    },
+    {
+     "label": "Code",
+     "value": "02309"
+    }
+   ]
+  },
+  "redist-argan-mask": {
+   "name": "Redist Argan Oil Hair Mask",
+   "short": "Argan oil hair mask",
+   "description": "A nourishing argan oil mask — brings softness and shine back to dry, dull hair.",
+   "features": [
+    "Argan oil",
+    "Deep nourishment",
+    "Softness and shine"
+   ],
+   "usage": "After shampooing, apply to damp hair, leave 3–5 minutes and rinse.",
+   "volume": "500 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "500 ml"
+    },
+    {
+     "label": "Code",
+     "value": "02649"
+    }
+   ]
+  },
+  "redist-arginine-color-mask": {
+   "name": "Redist Arginine Color Protector Hair Mask",
+   "short": "Color-protecting arginine mask",
+   "description": "An arginine mask for colored hair — protects color, nourishes and adds shine.",
+   "features": [
+    "Protects color",
+    "Nourishes",
+    "Adds shine"
+   ],
+   "usage": "After shampooing, apply to damp hair, leave 3–5 minutes and rinse.",
+   "volume": "300 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "300 ml"
+    },
+    {
+     "label": "Code",
+     "value": "02617"
+    }
+   ]
+  },
+  "redist-biotin-volumizing-mask": {
+   "name": "Redist Biotin Volumizing Hair Mask",
+   "short": "Volumizing biotin mask",
+   "description": "A biotin mask that nourishes without weighing hair down, adding volume and vitality.",
+   "features": [
+    "Doesn't weigh hair down",
+    "Adds volume",
+    "Biotin care"
+   ],
+   "usage": "After shampooing, apply to damp hair, leave 3–5 minutes and rinse.",
+   "volume": "300 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "300 ml"
+    },
+    {
+     "label": "Code",
+     "value": "02618"
+    }
+   ]
+  },
+  "redist-keratin-conditioner": {
+   "name": "Redist Keratin Hair Conditioner",
+   "short": "Keratin spray conditioner",
+   "description": "A leave-in keratin spray conditioner — softens, detangles and smooths hair.",
+   "features": [
+    "Keratin care",
+    "Easy detangling",
+    "Leave-in"
+   ],
+   "usage": "Shake well and spray onto washed, damp hair. Leave in.",
+   "volume": "400 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "400 ml"
+    },
+    {
+     "label": "Code",
+     "value": "02582"
+    }
+   ]
+  },
+  "redist-overdose-conditioner": {
+   "name": "Redist Overdose Hair Conditioner",
+   "short": "Overdose spray conditioner — 40 herbs",
+   "description": "A spray conditioner from the Overdose range with 40 herbal extracts — nourishes and revives hair.",
+   "features": [
+    "40 herbal extracts",
+    "Nourishes and revives",
+    "Leave-in"
+   ],
+   "usage": "Shake well and spray onto washed, damp hair. Leave in.",
+   "volume": "400 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "400 ml"
+    },
+    {
+     "label": "Code",
+     "value": "02583"
+    }
+   ]
+  },
+  "redist-arginine-conditioner": {
+   "name": "Redist Arginine Hair Conditioner",
+   "short": "Arginine spray conditioner",
+   "description": "An arginine spray conditioner for colored hair — protects color and makes combing easier.",
+   "features": [
+    "Protects color",
+    "Easy combing",
+    "Leave-in"
+   ],
+   "usage": "Shake well and spray onto washed, damp hair. Leave in.",
+   "volume": "225 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "225 ml"
+    },
+    {
+     "label": "Code",
+     "value": "02611"
+    }
+   ]
+  },
+  "redist-biotin-conditioner": {
+   "name": "Redist Biotin Hair Conditioner",
+   "short": "Biotin spray conditioner",
+   "description": "The Biotin range spray conditioner — softens without weighing hair down and keeps volume.",
+   "features": [
+    "Keeps volume",
+    "Doesn't weigh hair down",
+    "Leave-in"
+   ],
+   "usage": "Shake well and spray onto washed, damp hair. Leave in.",
+   "volume": "225 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "225 ml"
+    },
+    {
+     "label": "Code",
+     "value": "02610"
+    }
+   ]
+  },
+  "redist-argan-conditioner": {
+   "name": "Redist Argan Oil Hair Conditioner",
+   "short": "Argan oil spray conditioner",
+   "description": "An argan oil spray conditioner — nourishes dry hair, adds shine and eases combing.",
+   "features": [
+    "Argan oil",
+    "Adds shine",
+    "Leave-in"
+   ],
+   "usage": "Shake well and spray onto washed, damp hair. Leave in.",
+   "volume": "400 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "400 ml"
+    },
+    {
+     "label": "Code",
+     "value": "02581"
+    }
+   ]
+  },
+  "redist-conditioner-all-hair": {
+   "name": "Redist Conditioner Two Phase",
+   "short": "Two-phase spray conditioner — Milk & Honey",
+   "description": "Redist Professional two-phase spray conditioner. Softens and moisturizes hair, gives it a well-groomed look and gives damaged hair special care. Can also be used as a styling spray.",
+   "features": [
+    "Softens hair",
+    "Moisturizes",
+    "Gives a well-groomed look",
+    "Special care for damaged hair",
+    "Two-phase, leave-in"
+   ],
+   "usage": "Shake well and spray onto washed, damp hair. Leave in.",
+   "volume": "400 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "400 ml"
+    }
+   ],
+   "variantLabel": "Type",
+   "variants": {
+    "01385": "Milk & Honey",
+    "02580": "Blue bottle"
+   }
+  },
+  "redist-bleaching-powder": {
+   "name": "Redist Bleaching Powder",
+   "short": "Professional bleaching powder — 1 kg",
+   "description": "A professional 1 kg bleaching powder for salons. Available in blue and white.",
+   "features": [
+    "Professional lifting power",
+    "Blue and white options",
+    "1 kg salon size"
+   ],
+   "usage": "Mix with developer at the manufacturer's ratio and apply immediately. For professional use.",
+   "volume": "1000 g",
+   "specs": [
+    {
+     "label": "Weight",
+     "value": "1000 g"
+    }
+   ],
+   "variantLabel": "Color",
+   "variants": {
+    "blue": "Blue",
+    "00629": "White"
+   }
+  },
+  "redist-overdose-hair-oil": {
+   "name": "Redist Overdose Hair Oil — 40 herbs",
+   "short": "Hair oil with 40 herbal extracts",
+   "description": "An Overdose range hair oil with 40 herbal extracts — nourishes hair, reduces split ends and adds shine.",
+   "features": [
+    "40 herbal extracts",
+    "Protects the ends",
+    "Adds shine"
+   ],
+   "usage": "Warm a few drops in your palms and apply to the ends of damp or dry hair.",
+   "volume": "150 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "150 ml"
+    },
+    {
+     "label": "Code",
+     "value": "00659"
+    }
+   ]
+  },
+  "freshfeel-bath-gel": {
+   "name": "Fresh Feel Bath Gel",
+   "short": "Bath gels — 9 scents",
+   "description": "Rich-lather bath and shower gels. Cleanses the skin and leaves a pleasant scent — 9 scents to choose from.",
+   "features": [
+    "9 scents",
+    "Rich lather",
+    "Family-size 750 ml"
+   ],
+   "usage": "Apply to wet skin or a sponge, lather and rinse.",
+   "volume": "750 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "750 ml"
+    }
+   ],
+   "variantLabel": "Scent",
+   "variants": {
+    "00238": "Spa Marine",
+    "00312": "Apricot",
+    "00267": "Blackberry",
+    "00239": "Classic",
+    "00311": "Coconut",
+    "00268": "Lemon",
+    "00237": "Vanilla Coco",
+    "00240": "Vanilla",
+    "00341": "Melon"
+   }
+  },
+  "freshfeel-shampoo": {
+   "name": "Fresh Feel Shampoo",
+   "short": "Everyday shampoo — 4 types",
+   "description": "An everyday shampoo in Oriental Oils, Shea Butter, Antidandruff and Keratin.",
+   "features": [
+    "4 types",
+    "Daily use",
+    "Value 750 ml"
+   ],
+   "usage": "Apply to wet hair, lather and rinse thoroughly.",
+   "volume": "750 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "750 ml"
+    }
+   ],
+   "variantLabel": "Type",
+   "variants": {
+    "00120": "Oriental Oils",
+    "00145": "Shea Butter",
+    "00118": "Antidandruff",
+    "00119": "Keratin"
+   }
+  },
+  "freshfeel-professional-shampoo": {
+   "name": "Fresh Feel Professional Shampoo",
+   "short": "Professional shampoo — 4 types",
+   "description": "The black-bottle professional range: Antidandruff, Keratin, Antifrizz and Shine.",
+   "features": [
+    "4 types",
+    "Targeted care",
+    "Value 750 ml"
+   ],
+   "usage": "Apply to wet hair, lather and rinse thoroughly.",
+   "volume": "750 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "750 ml"
+    }
+   ],
+   "variantLabel": "Type",
+   "variants": {
+    "00258": "Antidandruff",
+    "00259": "Keratin",
+    "00261": "Antifrizz",
+    "00260": "Shine"
+   }
+  },
+  "freshfeel-shower-gel": {
+   "name": "Fresh Feel Shower Gel",
+   "short": "Shower gel — Fruits and Aloe Vera",
+   "description": "An everyday shower gel that gently cleanses and refreshes the skin. Fruits and Aloe Vera scents.",
+   "features": [
+    "2 scents",
+    "Gentle cleansing",
+    "Value 750 ml"
+   ],
+   "usage": "Apply to wet skin, lather and rinse.",
+   "volume": "750 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "750 ml"
+    }
+   ],
+   "variantLabel": "Scent",
+   "variants": {
+    "00126": "Fruits",
+    "00127": "Aloe Vera"
+   }
+  },
+  "freshfeel-treatment-shampoo": {
+   "name": "Fresh Feel Treatment Shampoo",
+   "short": "Treatment herbal shampoos — 6 types",
+   "description": "The Treatment range — herbal-extract shampoos: biotin, cannabis leaf, garlic, rose vinegar, lemon-ginger and onion. Each for a different hair need.",
+   "features": [
+    "6 herbal options",
+    "Herbal extracts",
+    "400 ml"
+   ],
+   "usage": "Apply to wet hair, lather and rinse thoroughly.",
+   "volume": "400 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "400 ml"
+    }
+   ],
+   "variantLabel": "Type",
+   "variants": {
+    "00335": "Horse (Biotin)",
+    "00339": "Leaf (Cannabis)",
+    "00334": "Garlic",
+    "00336": "Rose vinegar",
+    "00333": "Lemon & Ginger",
+    "00330": "Onion"
+   }
+  },
+  "freshfeel-crema-suavizante": {
+   "name": "Fresh Feel Crema Suavizante",
+   "short": "Hair conditioner cream — 1 L",
+   "description": "A conditioner cream that softens hair after shampooing and makes combing easier. Aloe Vera, Keratin and Honey Argan.",
+   "features": [
+    "3 types",
+    "Softens hair",
+    "Value 1000 ml"
+   ],
+   "usage": "After shampooing, apply to damp hair, leave 1–2 minutes and rinse.",
+   "volume": "1000 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "1000 ml"
+    }
+   ],
+   "variantLabel": "Type",
+   "variants": {
+    "00270": "Aloe Vera",
+    "00269": "Keratin",
+    "00271": "Honey Argan"
+   }
   }
  },
  "brands": {
@@ -1480,9 +2426,13 @@
    "origin": "Professional line",
    "description": "Oxidant creams enriched with protein and argan oil. Economical 5-liter packaging for salons."
   },
-  "arteko": {
+  "artego": {
    "origin": "Professional tools",
-   "description": "Ceramic thermal brushes, massage combs and professional hair straighteners. Reliable tools for blow-drying and styling."
+   "description": "Thermal brushes, combs and a professional hair straightener — tools for blow-drying and styling."
+  },
+  "freshfeel": {
+   "origin": "Everyday care",
+   "description": "Everyday hair and body care: shampoos, conditioner creams, herbal Treatment shampoos, bath and shower gels. Value family sizes and a wide choice of scents."
   }
  },
  "categories": {
@@ -1505,6 +2455,10 @@
   "aletler": {
    "name": "Professional tools",
    "short": "Scissors, razor, straightener, brushes"
+  },
+  "beden-baximi": {
+   "name": "Body Care",
+   "short": "Bath and shower gels"
   }
  },
  "faq": [
@@ -1518,43 +2472,23 @@
   },
   {
    "q": "How does delivery work and how long does it take?",
-   "a": "Orders within Baku are usually delivered the same day or the next day. Delivery in Baku is free for orders over 50 ₼; otherwise it costs 3 ₼. We ship to the regions by post or cargo within 2–4 business days."
+   "a": "Delivery is free. Orders placed today are delivered within 2 days — tomorrow or the day after. We also deliver to the regions by post and cargo."
   },
   {
    "q": "What payment methods are available?",
    "a": "We accept cash (on delivery), bank card and bank transfer. Note: discounts on scissors, razors and straighteners apply to cash payments only."
   },
   {
-   "q": "How long are the discounts valid?",
-   "a": "Current promotions run until the end of the month or while stocks last. Razorline scissors are 40% off, RedOne products 20% off and the Artéko straightener 33% off. We announce new promotions on our Instagram page."
-  },
-  {
-   "q": "Is there special pricing for salons and barbershops?",
-   "a": "Yes. We offer an extra discount on wholesale orders (for example, 12 hair colors, or a box of wax or cologne). Buy 8 combs and get a comb stand free. Message us for details."
-  },
-  {
-   "q": "Which developer should I use with Nouvelle hair color?",
-   "a": "Nouvelle Hair Color is mixed at a 1:1 ratio. Choose 3% (10 vol) developer for tone-on-tone coloring, 6% (20 vol) for gray coverage and 1 level of lift, and 9–12% (30–40 vol) for 2–3 levels of lift."
-  },
-  {
-   "q": "How long do Kera Sublime straightening results last?",
-   "a": "Kera Sublime is a semi-permanent smoothing cream. Depending on hair type and application technique, the result lasts several weeks and holds through dozens of washes. To prolong the result, use the Kera Sublime shampoo, mask and oil."
+   "q": "Are the discounts temporary?",
+   "a": "No, the discounts are permanent — there is no time limit. Razorline scissors are 40% off, the Artego straightener 33% off (cash only), Redist and RedOne products 20% off and Fresh Feel products 15% off. We announce new promotions on our Instagram page."
   },
   {
    "q": "Do you have scissors for left-handed users?",
    "a": "Yes — the Razorline AK23L is made specifically for left-handed stylists. All Razorline scissors are made of stainless Japanese steel."
   },
   {
-   "q": "Can I return or exchange a product?",
-   "a": "Unopened products with undamaged packaging can be exchanged or returned within 14 days. For hygiene reasons, opened cosmetic products cannot be returned; in case of a manufacturing defect, we replace them immediately."
-  },
-  {
    "q": "Which wax is right for my hair?",
    "a": "For a glossy, “wet” look, choose Aqua waxes (Red, Blue, Cobra, Olive, etc.); for a natural matte finish, the Matte range (Green, Argan, Keratin, Matte White/Black); for texture and creative styles, Creative Fiber or Spider wax."
-  },
-  {
-   "q": "Can I pick up products from the store myself?",
-   "a": "Of course. Confirm your order in advance via WhatsApp or by phone, and we will have it ready for you."
   }
  ]
 }

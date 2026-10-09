@@ -1,5 +1,5 @@
 /**
- * Giriş ekranı: tünd pərdə üzərində hərf-hərf qalxan "Nouvelle", qızılı proqres xətti,
+ * Giriş ekranı: tünd pərdə üzərində hərf-hərf qalxan "Milano", qızılı proqres xətti,
  * sonra iki qatlı (qara → çəhrayı) əyri pərdə yuxarı qalxır.
  *
  * React state istifadə olunmur — inline skript `<html>`-ə ilk boyamadan əvvəl `is-loading`
@@ -7,7 +7,7 @@
  * Eyni sessiyada təkrar tam yükləmədə göstərilmir.
  */
 
-const WORD = "Nouvelle";
+const WORD = "Milano";
 const MIN_MS = 1650; // hərflər və proqres xətti tamamlansın
 const MAX_MS = 4000; // yavaş şəbəkədə belə istifadəçini saxlamırıq
 
@@ -39,7 +39,7 @@ export default function Loader() {
               ))}
             </p>
             <p className="nv-loader__tag" lang="en">
-              new generation
+              Milano.az
             </p>
             <div className="nv-loader__progress">
               <span className="nv-loader__bar" />
