@@ -1,4 +1,4 @@
-# Nouvelle Pro — kataloq saytı
+# Milano — kataloq saytı
 
 Next.js 16 (App Router) ilə tam statik (SSG) sayt. Backend yoxdur — sifarişlər WhatsApp vasitəsilə göndərilir.
 
